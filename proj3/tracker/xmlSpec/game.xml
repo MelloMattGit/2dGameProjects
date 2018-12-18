@@ -1,0 +1,126 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>mthall</username>
+
+<view>
+  <width>1000</width>
+  <height>800</height>
+  <loc x="200" y="80"/>
+</view>
+
+<world>
+  <width>4000</width>
+  <height>800</height>
+</world>
+
+<back>
+  <file>assets/background.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<sunset>
+  <file>assets/sunset.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</sunset>
+
+<cloudback>
+  <file>assets/cloud2.png</file>
+  <factor>5</factor>
+  <transparency>true</transparency>
+</cloudback>
+
+<cloudfore>
+  <file>assets/cloud1.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</cloudfore>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Diglett>
+  <file>assets/diglett.png</file>
+  <startLoc x="400" y="700"/>
+  <frames>2</frames>
+  <frameInterval>600</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Diglett>
+
+<Dugtrio>
+  <file>assets/dugtrio.png</file>
+  <startLoc x="430" y="730"/>
+  <frames>2</frames>
+  <frameInterval>500</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Dugtrio>
+
+<Ghastly>
+  <file>assets/ghastly.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>150</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+</Ghastly>
+
+<Pidgeot>
+  <file>assets/pidgeot.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>250</speedX>
+  <speedY>-50</speedY>
+  <transparency>false</transparency>
+</Pidgeot>
+
+<Fearow>
+  <file>assets/fearow.png</file>
+  <startLoc x="1000" y="500"/>
+  <frames>4</frames>
+  <frameInterval>300</frameInterval>
+  <speedX>225</speedX>
+  <speedY>75</speedY>
+  <transparency>false</transparency>
+</Fearow>
+
+<Biker>
+  <file>assets/biker.png</file>
+  <startLoc x="1000" y="700"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Biker>
+
+<Metapod>
+  <file>assets/metapod.png</file>
+  <startLoc x="1150" y="720"/>
+  <frames>3</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Metapod>
+
+</GameData>

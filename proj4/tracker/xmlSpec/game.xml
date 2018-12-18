@@ -1,0 +1,175 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>mthall</username>
+
+<numBugs>4</numBugs>
+
+<HUD>
+  <text>Welcome to my game! Use WASD to move up, left, down, and right, respectively!</text>
+  <width>400</width>
+  <height>160</height>
+  <position x="20" y="20"/>
+  <backgroundColor r="0" g="0" b="0" a="50."/>
+  <outlineColor r="0" g="0" b="0" a="255"/>
+  <textColor r="0" g="0" b="0" a="0"/>
+</HUD>
+
+<view>
+  <width>1000</width>
+  <height>800</height>
+  <loc x="200" y="80"/>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>800</height>
+</world>
+
+<back>
+  <file>assets/background.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<sunset>
+  <file>assets/sunset.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</sunset>
+
+<cloudback>
+  <file>assets/cloud2.png</file>
+  <factor>5</factor>
+  <transparency>true</transparency>
+</cloudback>
+
+<cloudfore>
+  <file>assets/cloud1.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</cloudfore>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Diglett>
+  <file>assets/diglett.png</file>
+  <startLoc x="400" y="700"/>
+  <frames>2</frames>
+  <frameInterval>600</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Diglett>
+
+<Dugtrio>
+  <file>assets/dugtrio.png</file>
+  <startLoc x="430" y="730"/>
+  <frames>2</frames>
+  <frameInterval>500</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Dugtrio>
+
+<Ghastly>
+  <file>assets/ghastly.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>150</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+</Ghastly>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</YellowStar>
+
+<Pidgeot>
+  <file>assets/pidgeot.png</file>
+  <startPos x="400" y="400"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <startVel x="200" y="200"/>
+  <minPosBoundary x="0" y="0"/>
+  <maxPosBoundary x="4000" y="800"/>
+  <twoWay>true</twoWay>
+  <scale>1.5</scale>
+  <transparency>false</transparency>
+  <safeDistance>50</safeDistance>
+  <slowDownFactor>0.30</slowDownFactor>
+</Pidgeot>
+
+<Fearow>
+  <file>assets/fearow.png</file>
+  <startPos x="60" y="100"/>
+  <startVel x="200" y="200"/>
+  <minPosBoundary x="0" y="0"/>
+  <maxPosBoundary x="2000" y="800"/>
+  <frames>4</frames>
+  <frameInterval>500</frameInterval>
+  <scale>1.5</scale>
+  <twoWay>true</twoWay>
+  <speedX>225</speedX>
+  <speedY>75</speedY>
+  <transparency>false</transparency>
+  <safeDistance>25</safeDistance>
+  <slowDownFactor>0.30</slowDownFactor>
+</Fearow>
+
+<Biker>
+  <file>assets/biker.png</file>
+  <startLoc x="1000" y="700"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Biker>
+
+<Metapod>
+  <file>assets/metapod.png</file>
+  <startLoc x="1150" y="720"/>
+  <frames>3</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Metapod>
+
+<bugNum>4</bugNum>
+
+<bug>
+  <file>assets/butterfree.png</file>
+  <startPos x="60" y="100"/>
+  <startVel x="200" y="200"/>
+  <minPosBoundary x="0" y="0"/>
+  <maxPosBoundary x="2000" y="800"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <twoWay>true</twoWay>
+  <scale>2.0</scale>
+  <slowDownFactor>0.30</slowDownFactor>
+  <safeDistance>200</safeDistance>
+<transparency>false</transparency>
+</bug>
+
+</GameData>
